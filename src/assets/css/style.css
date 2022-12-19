@@ -1,0 +1,540 @@
+.loyel-container{
+  max-width:1200px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  min-height:20px;
+  margin:auto;
+}
+table {
+  width: 100%;
+}
+
+/* product page tab container css  */
+.overview-review .heading {
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  background: #FAFAFA;
+  padding: 0 20px;
+  font-weight: 500;
+}
+
+.tab-container {
+  padding: 20px;
+}
+
+/* product page tab container css  */
+.loyel-seller-box {
+  padding: 20px;
+}
+
+.loyel-seller-box-item {
+  width: 100%;
+  min-height: 200px;
+  background: white;
+  padding: 20px; 
+  border: 1px solid #BABABA;
+}
+
+.user-select-none {
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+}
+
+.status-box {
+  display: inline-block;
+  margin: auto;
+  color: white;
+  padding: 2px 10px;
+  background: rgb(160, 159, 159);
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.pointer{
+  cursor:pointer;
+}
+:root{
+  --action-btn-hover-color:rgb(199, 194, 194);
+  --see-all-color: rgb(129, 125, 125);
+  --slider-gap:1rem;
+  --btn-color: #0094FF;
+}
+
+
+
+/* shocking-deal css start from here */
+.shocking-deal .hooper-prev, .shocking-deal .hooper-next{
+  background:white;
+  border-radius:50%;
+  height: 25px;
+  width: 25px;
+  padding:0;
+  margin:0;
+  border:1px solid rgb(131, 131, 131);
+}
+.shocking-deal .hooper-prev{
+  left:-11px;
+}
+.shocking-deal .hooper-next{
+  right:-11px;
+}
+.shocking-deal .hooper ul {
+  align-items: center;
+}
+/* shocking-deal css end */
+
+/* product-slider css start from here */
+.product-slider .hooper-prev, .product-slider .hooper-next{
+  background:white;
+  border-radius:50%;
+  height: 25px;
+  width: 25px;
+  padding:0;
+  margin:0;
+  border:1px solid rgb(131, 131, 131);
+}
+.product-slider .hooper-prev{
+  left:-11px;
+}
+.product-slider .hooper-next{
+  right:-11px;
+}
+/* .product-slider .hooper ul {
+  width: 101.3%;
+  justify-content: center;
+} */
+
+/* product-slider css end */
+
+
+
+/* vendor css start from here */
+.vendor .hooper-prev, .vendor .hooper-next{
+  background:white;
+  border-radius:50%;
+  height: 25px;
+  width: 25px;
+  padding:0;
+  margin:0;
+  border:1px solid rgb(131, 131, 131);
+}
+.vendor .hooper-prev{
+  left:-11px;
+}
+.vendor .hooper-next{
+  right:-11px;
+}
+.vendor .hooper ul {
+  align-items: center;
+}
+/* vendor css end */
+
+/* tab-slider css start from here */
+.tab-slider .hooper-prev, .tab-slider .hooper-next{
+  background:white;
+  border-radius:50%;
+  height: 25px;
+  width: 25px;
+  padding:0;
+  margin:0;
+  border:1px solid rgb(131, 131, 131);
+}
+.tab-slider .hooper-prev{
+  left:-11px;
+}
+.tab-slider .hooper-next{
+  right:-11px;
+}
+.tab-slider .hooper ul {
+  align-items: center;
+}
+
+/* tab-slider css end */
+
+
+
+
+/* brand-slider css start from here */
+.brand-slider .hooper-prev, .brand-slider .hooper-next{
+  background:white;
+  border-radius:50%;
+  height: 25px;
+  width: 25px;
+  padding:0;
+  margin:0;
+  border:1px solid rgb(131, 131, 131);
+}
+.brand-slider .hooper-prev{
+  left:-11px;
+}
+.brand-slider .hooper-next{
+  right:-11px;
+}
+.brand-slider .hooper ul {
+  align-items: center;
+}
+/* brand-slider css end */
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+.logo {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 6px; 
+  
+}
+
+
+
+
+
+/* global css for seller welcome and request for seller page  *start* */
+
+/* already seller css  */
+.already-seller {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+  background: white;
+  margin: 10px 0;
+}
+.already-seller p {
+  color: #F12323;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin:0;
+  padding:0;
+}
+.already-seller button {
+  width: 100px;
+  height: 40px;
+  background: #F12323;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+/* already seller css  */
+
+/* welcome banner css  */
+.welcome-banner {
+  position: relative;
+}
+.welcome-banner img {
+  width: 100%;
+}
+.seller-signup-btn {
+  width:100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+}
+.seller-signup-btn button {
+  width: 150px;
+  height: 40px;
+  color: #F12323;
+  background: white;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+/* welcome banner css  */
+
+
+
+/* three steps css  */
+.steps-title .title-head{
+  font-size: 2rem;
+  color: #F12323;
+  font-weight: bold;
+  text-align: center;
+  text-transform: capitalize;
+}
+.steps-title .title-slogan {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.steps-flow {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  grid-column-gap: 100px;
+}
+.steps-flow img {
+  display: block;
+  height: 130px;
+}
+/* three steps css  */
+
+/* why sell css  */
+
+.why-sell-title {
+  font-size: 2rem;
+  color: #F12323;
+  font-weight: bold;
+  text-align: center;
+  text-transform: capitalize;    
+}
+
+.why-sell-flow img {
+  width: 100%;
+}
+
+/* why sell css  */
+
+/* global css for seller welcome and request for seller page  *end* */
+
+
+
+
+
+/* product view css start  */
+.image-magnifier__img {
+  width: 100% !important;
+  height: 400px !important;
+  object-fit: cover;
+}
+/* .image-magnifier__zoom{
+  width: 600px !important;
+  height: 600px !important;
+} */
+/* product view css end  */
+
+
+
+/* user & seller profile global css start  */
+
+.profile-firstPart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+/* profile image css */
+.profile-img {
+  width: 180px;
+  min-height: 225px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-img img {
+  width: 150px;
+  padding: 20px 0;
+}
+#upload-img {
+  display: none;
+}
+.upload-img {
+  width: 100%;
+  text-align: center;
+}
+.upload {
+  width: 100%;
+  height: 30px;
+  display: block;
+  background: black;
+  padding: 0;
+  color: white;
+  margin: 0;
+  cursor: pointer;
+}
+.verified-status {
+  color: red;
+  margin: 5px auto;
+  text-align: center;
+  cursor: pointer;
+}
+/* profile image css */
+
+
+/* profile info  */
+.profile-table {
+  width: calc(97% - 180px);
+}
+.profile-info {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #999999;
+  display: flex;
+  background: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+
+.profile-table table tr td:nth-child(1),
+.profile-table table tr td:nth-child(3) {
+  font-weight: bold;
+}
+.profile-table table tr td:nth-child(2),
+.profile-table table tr td:nth-child(4) {
+  color: #020202;
+}
+.profile-table table tr {
+  border-bottom: 1px solid #999999;
+}
+.profile-table table tr td {
+  padding: 5px 0;
+}
+.platinum-color {
+  color: #00A64C;
+}
+/* profile info */
+
+/* purchase head css  */
+.purchase-head {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  grid-column-gap: 30px;
+  font-size: 1.2rem;
+}
+.purchase-head p {
+  margin: 0;
+  padding: 0;
+}
+.hr-box {
+  display: flex;
+  height: auto;
+  align-items: center;
+}
+.hr {
+  width: 300px;
+  border-bottom: 2px solid #989898;
+}
+/* purchase head css  */
+
+/* purchase body css  */
+.two-box {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+
+}
+.box-one,
+.box-two {
+  width: 350px;
+  height: 180px;
+  border: 2px solid #989898;
+  padding: 35px;
+  font-size: 1.03rem;
+}
+.box-one {
+  text-align: left;
+}
+.box-two {
+  text-align: right;
+}
+/* purchase body css  */
+
+/* user & seller profile global css end */
+
+/* product create global css  */
+/* exists classes  */
+.b-form-tag {
+  background: #CED2D8 !important;
+  color: black !important;
+}
+
+.b-form-tag > button.b-form-tag-remove {
+  background-color: transparent;
+  border: none;
+}
+output,
+.sr-only {
+  display: none !important;
+}
+
+/* product create global css  */
+
+/* seller offer global css  */
+
+.right-head .ant-input-group > .ant-input:first-child, .ant-input-group-addon:first-child {
+  max-width: 120px;
+}
+
+/* seller offer global css  */
+
+
+
+
+/* seller layout global css  */
+
+/* for ant color  */
+.ant-collapse-icon-position-right > .ant-collapse-item > .ant-collapse-header {
+  color: white;
+}
+.ant-collapse-borderless > .ant-collapse-item > .ant-collapse-content > .ant-collapse-content-box {
+  color: white;
+}
+/* for ant icon in collapse  */
+.ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-extra {
+  float: left;
+  margin-top: -5px;
+  margin-right:10px;
+  font-size: 20px;
+}
+/* ant icon size  */
+.anticon {
+  font-size: 20px;
+}
+
+
+/* seller layout global css  */
+
+/* news-feed global css start  */
+
+/* plugin css  */
+.emoji-picker-container {
+  width: 500px !important;
+}
+.emoji-wysiwyg-editor {
+  width: 500px !important;
+}
+.emoji-wysiwyg-editor:focus {
+  outline: none;
+  box-shadow: 1px 1px 4px dodgerblue,-1px -1px 4px dodgerblue;
+}
+
+/* news-feed global css end  */
